@@ -1,0 +1,47 @@
+Ticket ID: 1001
+Issue: User cannot login. Error message "Invalid Credentials".
+Resolution: User forgot password. Instructed user to click "Forgot Password" link on the login page. Verified successful login after password reset.
+
+Ticket ID: 1002
+Issue: Payment failed with error "Code 502".
+Resolution: "Code 502" indicates a gateway timeout. Checked payment gateway status, it was down for maintenance. Advised user to retry after 30 minutes. Payment went through successfully later.
+
+Ticket ID: 1003
+Issue: App crashes on launch (iOS 16).
+Resolution: Known bug in version 3.1.2. Advised user to update to version 3.1.3 which contains the hotfix. User updated app and confirmed issue is resolved.
+
+Ticket ID: 1004
+Issue: Subscription cancellation refund request.
+Resolution: User requested refund within the 14-day cooling-off period. Processed full refund via Stripe. Sent confirmation email to user.
+
+Ticket ID: 1005
+Issue: Feature request for dark mode.
+Resolution: Thanked user for feedback. Added request to the product roadmap. Informed user that Dark Mode is planned for Q3 release.
+
+Ticket ID: 1006
+Issue: Data export failing with timeout.
+Resolution: User has a large dataset (>1GB). The standard export times out at 30s. Triggered a manual background export and emailed the link to the user once completed.
+
+Ticket ID: 1007
+Issue: API Rate limit exceeded frequently.
+Resolution: User was polling every 1 second. Explained that the limit is 100 req/min. Suggested implementing exponential backoff or using Webhooks for updates instead of polling.
+
+Ticket ID: 1008
+Issue: Mobile app not syncing offline data.
+Resolution: User had "Data Saver" mode enabled on Android. Advised to whitelist our app in Data Saver settings. Sync started working immediately.
+
+Ticket ID: 1009
+Issue: Billing address update failed.
+Resolution: The address validator was rejecting the postal code format. Manually overrode the validation for this specific edge case in the admin panel and updated the address for the user.
+
+Ticket ID: 1010
+Issue: "Account Locked" message.
+Resolution: Security system flagged suspicious login attempts from a new IP in Russia. User confirmed they are traveling. Unlocked account and advised to use 2FA for extra security.
+
+Ticket ID: 1011
+Issue: Invoice not received by email.
+Resolution: Checked email logs. The invoice was delivered but landed in Spam. Advised user to mark our domain as safe. Resent the invoice manually.
+
+Ticket ID: 1012
+Issue: Request to delete account and all data (GDPR).
+Resolution: Verified identity. Initiated the "Forget Me" process in the admin dashboard. Informed user that all data will be permanently purged within 30 days as per GDPR compliance.

@@ -1,0 +1,38 @@
+MASTER SERVICE AGREEMENT
+Date: January 1, 2026
+
+1. TERMS AND TERMINATION
+1.1 Initial Term. This Agreement shall commence on the Effective Date and continue for a period of one (1) year (the "Initial Term").
+1.2 Auto-Renewal. The Agreement shall automatically renew for successive one (1) year periods unless either party gives written notice of non-renewal at least sixty (60) days prior to the end of the current term.
+1.3 Termination for Cause. Either party may terminate this Agreement immediately upon written notice if the other party breaches any material term and fails to cure such breach within thirty (30) days of receiving notice.
+1.4 Effect of Termination. Upon termination, all outstanding fees become immediately due.
+
+2. FORCE MAJEURE
+2.1 Definition. "Force Majeure Event" means any event beyond the reasonable control of the affected party, including but not limited to acts of God, war, riot, terrorism, labor strikes, embargoes, natural disasters, or pandemics.
+2.2 Effect. Neither party shall be liable for any failure or delay in performance under this Agreement (except for payment obligations) to the extent such failure or delay is caused by a Force Majeure Event.
+2.3 Termination. If a Force Majeure Event continues for more than ninety (90) consecutive days, either party may terminate this Agreement upon written notice to the other party without penalty.
+
+3. CONFIDENTIALITY
+3.1 Obligations. The Receiving Party agrees to: (i) use Confidential Information only for the purposes of performing its obligations under this Agreement; and (ii) protect Confidential Information with the same degree of care it uses for its own confidential information, but in no event less than reasonable care.
+3.2 Exclusions. Confidential Information does not include information that: (a) becomes publicly known through no fault of the Receiving Party; (b) created independently by Receiving Party without use of Disclosing Party's Confidential Information.
+3.3 Return of Materials. Upon termination, Receiving Party must return or destroy all Confidential Information.
+
+4. LIMITATION OF LIABILITY
+IN NO EVENT SHALL EITHER PARTY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION, LOST PROFIT, LOST REVENUE, OR LOST SAVINGS, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+THE TOTAL AGGREGATE LIABILITY OF EITHER PARTY ARISING OUT OF THIS AGREEMENT SHALL NOT EXCEED THE TOTAL FEES PAID BY CUSTOMER DURING THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
+
+5. INDEMNIFICATION
+5.1 By Provider. Provider shall indemnify and hold Customer harmless against any third-party claim that the Service infringes a copyright or patent.
+5.2 By Customer. Customer shall indemnify Provider against any claims arising from Customer's data or use of the Service in violation of applicable law.
+
+6. DATA PROTECTION (GDPR)
+6.1 Processing. Both parties agree to comply with all applicable data protection laws, including GDPR.
+6.2 Data Processing Agreement (DPA). The parties agree to execute a separate DPA if Customer processes Personal Data of Service Provider's users.
+
+7. GOVERNING LAW AND DISPUTE RESOLUTION
+7.1 Governing Law. This Agreement shall be governed by the laws of the State of California, without regard to its conflict of laws principles.
+7.2 Arbitration. Any dispute arising out of this Agreement shall be settled by binding arbitration administered by the American Arbitration Association (AAA).
+
+8. MISCELLANEOUS
+8.1 Assignment. Neither party may assign this Agreement without the prior written consent of the other, except in connection with a merger or acquisition.
+8.2 Entire Agreement. This Agreement constitutes the entire agreement between the parties and supersedes all prior negotiations and agreements.

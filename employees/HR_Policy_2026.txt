@@ -1,0 +1,76 @@
+REMOTE WORK POLICY 2026
+Effective Date: January 1, 2026
+
+1. Eligibility
+All full-time employees who have completed their probation period are eligible for the Hybrid Remote Work program. Contractors and interns are eligible upon manager approval.
+
+2. Hybrid Model
+The standard model requires employees to be in the office 2 days a week (Tuesday and Thursday). The remaining 3 days can be worked remotely from any location within the country.
+
+3. Work Hours
+Core hours are 10:00 AM to 3:00 PM local time. Employees must be available on Slack and Zoom during these hours. Flexible scheduling is allowed outside core hours.
+
+4. Equipment Stipend
+A one-time stipend of $1,000 is provided for setting up a home office. This can be used for monitors, ergonomic chairs, or high-speed internet installation.
+
+5. Data Security
+All remote work must be conducted on company-issued laptops. Use of personal devices for accessing the internal VPN is strictly prohibited.
+
+LEAVE POLICY
+1. Annual Leave
+Employees are entitled to 20 days of paid annual leave per year. Unused leave can be carried over up to 10 days to the next calendar year.
+
+2. Sick Leave
+10 days of paid sick leave are provided. A medical certificate is required for absences longer than 3 consecutive days.
+
+3. Parental Leave
+Primary caregivers are eligible for 16 weeks of fully paid leave. Secondary caregivers are eligible for 6 weeks of fully paid leave.
+
+4. Bereavement Leave
+Employees are granted up to 5 days of paid leave in the event of the death of an immediate family member.
+
+5. Sabbatical
+After 5 years of continuous service, employees are eligible for a 4-week paid sabbatical.
+
+HEALTH BENEFITS
+The company provides comprehensive health insurance through HealthPlus 2026 plan.
+- Dental and Vision are included.
+- Mental health support includes 10 free therapy sessions per year.
+- Gym reimbursement up to $50/month.
+
+IT TROUBLESHOOTING
+1. VPN Connection Issues
+If you cannot connect to the VPN, first restart your Cisco AnyConnect client. If the issue persists, verify your 2FA token. Contact IT Support at extension 5555 if the problem continues.
+
+2. Password Reset
+Passwords can be reset via the self-service portal at internal.portal.com/reset. New passwords must be at least 12 characters long and include special characters.
+
+3. Software Installation
+Employees do not have admin rights. To install new software, submit a ticket via the IT Service Desk portal. Approval typically takes 24 hours.
+
+PERFORMANCE REVIEWS
+1. Cycle
+Performance reviews are conducted bi-annually in June and December.
+
+2. Ratings
+Ratings are on a 5-point scale: 1 (Needs Improvement) to 5 (Exceeds Expectations).
+
+3. Promotions
+Promotion cycles occur in January. Eligibility requires a minimum rating of 4 in the last review cycle.
+
+TRAVEL POLICY
+1. Booking
+All business travel must be booked through the corporate travel portal (Concur).
+
+2. Per Diem
+Daily meal allowance is $75 for domestic travel and $100 for international travel.
+
+3. Flights
+Economy class is standard for flights under 6 hours. Business class is permitted for flights over 6 hours.
+
+CODE OF CONDUCT
+1. Workplace Harassment
+The company has a zero-tolerance policy for harassment of any kind. Reports can be made anonymously via the Ethics Hotline.
+
+2. Social Media
+Employees should avoid posting sensitive company information on social media. When posting personal opinions, state that they do not represent the company.

@@ -1,0 +1,115 @@
+API Documentation Version 2.0
+Base URL: https://api.techcorp.com/v2
+
+1. Authentication
+All requests must be authenticated using a Bearer Token.
+To obtain a token, POST to /auth/token with your client_id and client_secret.
+
+Example Request:
+POST /auth/token
+{
+  "client_id": "your_id",
+  "client_secret": "your_secret"
+}
+
+Example Response:
+{
+  "access_token": "eyJhbGciOiJIUz...",
+  "expires_in": 3600
+}
+
+header "Authorization: Bearer <your_token>"
+
+2. User Management
+GET /users
+Retrieves a list of users. Supports pagination via 'page' and 'limit' query parameters.
+
+POST /users
+Creates a new user. Required fields: 'email', 'password', 'role'. 'role' must be 'admin' or 'member'.
+
+Example Payload:
+{
+  "email": "user@example.com",
+  "password": "SecurePassword123!",
+  "role": "member"
+}
+
+PUT /users/{id}
+Updates user details. You can update 'email' or 'role'. 
+
+DELETE /users/{id}
+Deletes a user permanently. Requires 'admin' role.
+
+3. Product Catalog
+GET /products
+Retrieves a list of products.
+Query Parameters:
+- category: Filter by category (e.g., electronics, books)
+- min_price: Minimum price
+- max_price: Maximum price
+
+GET /products/{id}
+Get details of a single product.
+
+POST /products
+Add a new product.
+{
+  "name": "Super Widget",
+  "price": 99.99,
+  "category": "electronics"
+}
+
+4. Search API
+GET /search
+Performs a fuzzy search across products and users.
+Query Parameters:
+- q: The search term (required)
+- type: 'product' or 'user' (optional, defaults to all)
+
+Example:
+GET /search?q=widget&type=product
+
+5. Webhooks
+You can subscribe to events such as 'user.created', 'payment.succeeded'.
+To register a webhook, POST to /webhooks.
+
+Security:
+Verify the webhook signature using the 'X-Signature' header. The signature is an HMAC-SHA256 hash of the payload using your webhook secret.
+
+Sample Code (Python):
+import hmac
+import hashlib
+
+def verify_signature(payload, secret, signature):
+    computed = hmac.new(secret.encode(), payload.encode(), hashlib.sha256).hexdigest()
+    return hmac.compare_digest(computed, signature)
+
+6. Rate Limiting
+The API is rate-limited to 100 requests per minute per IP.
+If you exceed this, you will receive a 429 Too Many Requests response.
+Headers:
+X-RateLimit-Limit: 100
+X-RateLimit-Remaining: 4
+X-RateLimit-Reset: 1678900000
+
+7. Error Handling
+All errors return a JSON object with 'error' and 'message' fields.
+Common Error Codes:
+400 Bad Request: Invalid parameters.
+401 Unauthorized: Invalid or missing token.
+403 Forbidden: Insufficient permissions.
+404 Not Found: Resource does not exist.
+500 Internal Server Error: Something went wrong on our end.
+
+8. WebSocket API
+Endpoint: wss://stream.techcorp.com/v2/events
+Connect with `Authorization` header containing your Bearer token.
+Events subscribed:
+- `market_update`: Real-time pricing updates.
+- `system_status`: Maintenance alerts.
+
+9. Client SDKs
+Official SDKs are available for:
+- Python (`pip install techcorp-sdk`)
+- Node.js (`npm install techcorp-sdk`)
+- Go (`go get github.com/techcorp/sdk-go`)
